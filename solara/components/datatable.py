@@ -10,8 +10,8 @@ import solara
 import solara.hooks.dataframe
 import solara.lab
 import traitlets
-from solara.lab.hooks.dataframe import use_df_column_names, df_row_names
-from solara.lab.utils.dataframe import df_len, df_records, df_slice
+from solara.lab.hooks.dataframe import use_df_column_names
+from solara.lab.utils.dataframe import df_len, df_records, df_slice, df_row_names
 
 from .. import CellAction, ColumnAction
 
